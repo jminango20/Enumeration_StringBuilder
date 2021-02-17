@@ -13,7 +13,7 @@ public class Program {
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-		
+		//Primeiro Post
 		Comment c1 = new Comment("Have a nice trip");
 		Comment c2 = new Comment("Wow that's awesome!");
 		Post post1 = new Post(
@@ -24,9 +24,7 @@ public class Program {
 		post1.addComment(c1);
 		post1.addComment(c2);
 		
-		//Resultado
-		System.out.println(post1);
-		
+		//Segund Post
 		Comment c3 = new Comment("Good night");
 		Comment c4 = new Comment("May the Force be with you");	
 		Post post2 = new Post(
@@ -38,6 +36,7 @@ public class Program {
 		post2.addComment(c4);
 		
 		//Resultado
+		System.out.println(post1);
 		System.out.println(post2);
 		
 		
